@@ -1,0 +1,553 @@
+
+@media screen and (max-width: 1260px){
+      li{
+        padding: 20px;
+        margin-left: 15px;
+    }
+    ul li a{
+      font-size: 22px;   
+    }
+  .content .mintu_photo{
+        margin-left: 60%;
+        margin-top: -322px;
+    }
+}
+@media screen and (max-width:1200px) {
+    .menu{
+        margin-left: 580px;    
+    } 
+    
+
+    
+
+
+
+
+
+}
+@media screen and (max-width:1170px){
+    .menu{
+        margin-left: 540px;
+    }
+}
+@media screen and (max-width:1140px){
+    .menu{
+        margin-left: 520px;
+    }   
+}
+@media screen and (max-width:1110px){
+    .menu{
+        margin-left: 500px;
+    }
+}
+@media screen and (max-width:1090px){
+    .menu{
+        margin-left: 450px;
+    }
+}
+@media screen and (max-width:1080px){
+    .menu{
+        margin-left: 430px;
+    }
+}
+@media screen and (max-width:1070px){
+    .menu{
+        margin-left: 425px;
+    }
+    li{
+        padding: 20px;
+        margin-left: 13px;
+    }
+}
+@media screen and (max-width:1050px){
+    .menu{
+        margin-left: 415px;
+        margin-top: -14px;
+    }
+    li{
+        margin-left: 11px;
+    }
+    .skill-graph{
+        width: 49%;
+        position: absolute; 
+        margin-left: 55%;
+        margin-top: -34vh;
+        
+    }
+}
+@media screen and (max-width:1020px){
+    .menu{
+        margin-left: 405px;
+    }
+    li{
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width:1000px){
+    .menu{
+        margin-left: 305px;
+    }
+    
+}
+@media screen and (max-width:950px){
+    .menu{
+        margin-left: 275px;
+    }
+    .about .photo{
+        
+        margin-left:7%;
+    }
+    .skill-graph{
+        width: 49%;
+        position: absolute; 
+        margin-left: 55%;
+        margin-top: -36vh;
+        
+    }
+
+
+
+
+
+}
+@media screen and (max-width:900px){
+    .menu{
+        margin-left: 250px;
+    }
+    .about{
+        height: 105vh;
+        width: 100%;
+        background-color: aliceblue;
+        position: absolute;
+        margin-top: 93vh; 
+    }
+    .serviecs{
+        position: absolute;
+        height: 87vh;
+        width: 100%;
+        margin-top: 200vh;
+    }
+    .serviecs .survice-content1 ,.survice-content2,.survice-content3
+            
+{
+    height: 32vh;
+    width: 45%;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px;
+}
+.serviecs .survice-content1:hover{
+    width: 46%;
+    height: 33vh;
+
+}
+.survice-content2{
+    margin-left: 50%;
+    margin-top: -36vh;
+}
+.survice-content2:hover{
+    width: 46%;
+    height: 33vh;
+}
+.survice-content3:hover{
+    width: 46%;
+    height: 33vh;
+}
+     
+
+    .content-text{
+        width: 80%;
+        position: absolute;
+        margin-top: 420px;
+        margin-left: 10%;
+    }
+    .about .photo{
+        
+        margin-left:27%;
+    }
+    .skill{
+        position: absolute;
+        margin-top: 288vh;
+        width: 100%;
+        height: 90vh;
+        background-color: aliceblue;
+        
+    }
+    .contact{
+        position: absolute;
+        width: 100%;
+        margin-top: 375vh;
+        height: 115vh;
+        background-color: azure;
+    }
+    #m{
+        height: 70px;
+        width: 94%;
+    }
+    input[type="email"]{
+        height: 40px;
+    }
+    input[type="text"]{
+        height: 40px;}
+
+    .skill-graph{
+        width: 90%;
+        margin-left: 8%;
+        margin-top: 1vh;
+        
+    }
+    .skill-content{
+        width: 90%;
+        margin-left: 8%;
+    }
+
+
+
+
+
+    .contact-input{
+        position: absolute;
+        margin-left: 8%;
+        margin-top: 30vh;
+        width: 90%;
+    }
+    footer{
+        position: absolute;
+        margin-top: 490vh;
+        width: 99%;
+        height: 80px;
+        background-color: black;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+
+
+
+
+
+
+
+
+}
+@media screen and (max-width:850px){
+    .menu{
+        margin-left: 220px;
+    }
+    li{
+        padding: 18px;
+        margin-left: 8px;
+    }
+}
+@media screen and (max-width:800px){
+    .menu{
+        margin-left: 190px;
+    } 
+    .serviecs .survice-content1 ,.survice-content2,.survice-content3
+            
+{
+    height: 32vh;
+    width: 90%;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px;
+}
+.serviecs{
+    position: absolute;
+    height: 125vh;
+    width: 100%;
+    margin-top: 163vh;
+    background-color: black;
+    
+}
+.serviecs .survice-content1:hover{
+    width: 91%;
+    height: 33vh;
+}
+.survice-content2:hover{
+    width: 91%;
+    height: 33vh;
+}
+.survice-content3:hover{
+    width: 91%;
+    height: 33vh;
+}
+}
+
+@media screen and (max-width:750px){
+    .menu{
+        margin-left: 170px;
+    } 
+}
+@media screen and (max-width:700px){
+    .menu{
+        margin-left: 160px;
+    }
+    li{
+        padding:18px 16px;
+        margin-left: 5px;
+    }
+    .content .mintu_photo{
+        display: none;
+    }
+    .about .photo{
+        
+        margin-left:20%;
+    }
+}
+@media screen and (max-width:650px){
+   
+    li{
+        padding:18px 11px;
+        margin-left: 3px;
+    }
+    .about{
+        height: 120vh;
+        width: 100%;
+        background-color: aliceblue;
+        position: absolute;
+        margin-top: 93vh; 
+    }
+    .serviecs{
+        position: absolute;
+        height: 127vh;
+        width: 100%;
+        margin-top: 215vh;
+    }
+    .skill{
+        position: absolute;
+        margin-top: 340vh;
+        width: 100%;
+        height: 90vh;
+        background-color: aliceblue;
+        
+    }
+    .contact{
+        position: absolute;
+        width: 100%;
+        margin-top: 430vh;
+        height: 115vh;
+        background-color: azure;
+    }
+    input[type="text"]{
+        height: 35px;
+        width: 90%;
+        justify-content: center;
+        font-size: 18px;
+        letter-spacing: 1.2px;
+        border-radius: 5px;
+        margin: 5px;
+    
+    }
+    input[type="email"]{
+        height: 35px;
+        width: 90%;
+        justify-content: center;
+        font-size: 18px;
+        letter-spacing: 1.2px;
+        border-radius: 5px;
+        /* margin-left: 5px; */
+        margin: 5px;
+    
+        
+    }
+    #subject{
+        width: 90%;
+       
+    }
+    #m{
+        height: 50px;
+        width: 90%;
+    }
+    footer{
+        position: absolute;
+        margin-top: 548vh;
+        width: 99%;
+        height: 60px;
+        background-color: black;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+}
+@media screen and (max-width:600px){
+    .menu{
+        margin-left: 150px;
+        
+    }
+    li{
+        padding:18px 8px;
+        margin-left: 3px;
+    }
+    ul li a{
+        font-size: 20px;
+          
+      }
+      .about .photo{
+        
+        margin-left:10%;
+    }
+}
+@media screen and (max-width:550px){
+    .logo{
+        margin-left: 0px;
+        padding: 0px 10px;
+    }
+    .logo h1{
+        font-size: 32px;
+    }
+    .menu{
+        margin-left: 110px;
+        margin-top:-14px;
+    }
+    li{
+        padding:18px 8px;
+        margin-left: 3px;
+    }
+    ul li a{
+        font-size: 20px;
+          
+      }
+}
+@media screen and (max-width:525px){
+    .logo{
+        margin-left: 0px;
+        padding: 0px 5px;
+    }
+    .logo h1{
+        font-size: 30px;
+    }
+    li{
+        padding:18px 6px;
+        margin-left: 3px;
+    }
+    ul li a{
+        font-size: 18px;
+          
+      }
+      ul li a:hover{
+        font-size: 19px;
+      }
+}
+@media screen and (max-width:500px){
+    .logo{
+       display: none;
+    }
+    .menu{
+        margin-left: 5px;
+        margin-top:-14px;
+    }
+    li{
+        padding:18px 8px;
+        margin-left: 3px;
+    }
+    ul li a{
+        font-size: 20px;
+          
+      
+}
+@media screen and (max-width:450px){
+    .menu{
+        padding: 20px 0px;
+    }
+}
+@media screen and (max-width:450px){
+   li{
+        padding:18px 8px;
+        margin-left: 3px;
+    }
+    ul li a{
+        font-size: 19px; 
+}
+@media screen and (max-width:414px){
+    li{
+         padding:18px 6px;
+     }
+     ul li a{
+         font-size: 18px; 
+ }
+ .content .text{
+    width: 100%;
+    padding: 0px;
+    margin-left: 8%;
+ }
+ .content{
+    color: white;
+    position: absolute;
+    padding: 30px 30px;
+    margin-top: 70px;
+}
+.text h2 span{
+    color: orangered;
+    margin-top: 10px;
+}
+.text h2{
+    font-size: 25px;
+}
+.btn{
+    margin-left: 8%;
+}
+.home{
+    height: 80vh;
+    width: 100%;
+    background-image: url(home-backgraound.webp);
+    position: absolute;
+    background-size: cover;
+    }
+ .about{
+    height: 126vh;
+    width: 100%;
+    background-color: aliceblue;
+    position: absolute;
+    margin-top: 73vh; 
+}
+.serviecs{
+    position: absolute;
+    height: 127vh;
+    width: 100%;
+    margin-top: 200vh;
+}
+.skill{
+    position: absolute;
+    margin-top: 320vh;
+    width: 100%;
+    height: 90vh;
+    background-color: aliceblue;
+    
+}
+.contact{
+    position: absolute;
+    width: 100%;
+    margin-top: 412vh;
+    height: 70vh;
+    background-color: azure;
+}
+footer{
+    position: absolute;
+    margin-top: 480vh;
+    width: 99%;
+    height: 60px;
+    background-color: black;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    z-index: 200px;
+}
+
+}
+ @media screen and (max-width:350px){
+    li{
+         padding:18px 5px;
+         margin-left: 3px;
+     }
+     ul li a{
+         font-size: 17px; 
+ }
+ .text h2{
+    font-size: 22px;}
+ }
+
+
+
+
+

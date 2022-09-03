@@ -1,0 +1,583 @@
+body{
+    transition: 2s;
+    scroll-behavior: smooth;
+}
+*{
+    scroll-behavior: smooth;
+}
+.home{
+height: 100vh;
+width: 100%;
+background-image: url(home-backgraound.webp);
+position: absolute;
+background-size: cover;
+}
+nav{
+    height: 70px;
+    width: 100%;
+    /* background-color: red; */
+    position: absolute;
+    transition: 1s;
+    z-index: 200;
+}
+.logo{
+    padding: 0px 30px;
+    margin-left: 20px;
+    margin-top: -16px;
+    position: fixed;
+    z-index: 200;
+    
+
+
+}
+.logo a{
+    text-decoration: none;
+}
+.logo h1{
+    color: white;
+    font-size: 35px;
+    transition:1.5s;
+}
+.logo h1:hover{
+    color: brown;
+    letter-spacing: 1px;
+}
+.logo h1 span{
+    color: red;
+}
+.menu{
+    margin-left: 600px;
+    position: absolute;
+    margin-top: -14px;
+    z-index: 100;
+
+
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    padding: 20px;
+    margin-left: 15px;
+}
+ul li a{
+    color: white;
+    text-decoration:none;
+    font-size: 22px;
+    transition: 1s;
+}
+ul li a:hover{
+    color: brown;
+    font-size: 23px;
+    letter-spacing: 1px;
+}
+.content{
+    color: white;
+    position: absolute;
+    padding: 30px 30px;
+    margin-top: 50px;
+}
+.content .text{
+    margin-top:150px;
+    margin-left: 100px;
+    line-height: 15px;
+}
+.text h3{
+    
+        font-size: 25px;
+    }
+.text h1{
+    font-size: 47px;
+    letter-spacing: 2px;
+}
+.text h2{
+    font-size: 33px;
+}
+.text h2 span{
+    color: orangered;
+}
+
+
+
+
+.content .mintu_photo{
+    position: absolute;
+    margin-left: 600px;
+    margin-top: -320px;
+    transition: 4s;
+}
+.content .mintu_photo:hover{
+    margin-left:700px ;
+    margin-top: -335px;
+
+}
+  
+.mintu_photo img{
+    height: 800px;
+    transition: 4s;
+    
+} 
+.mintu_photo img:hover{
+    height: 810px;
+}
+.btn{
+    margin-left: 100px;
+}
+.btn button{
+    height: 45px;
+    width: 100px;
+    background-color: orangered;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    justify-content: center;
+    color: white;
+    transition: 0.5s;
+    border: 2px solid orangered;
+}
+.btn button:hover{
+    background: transparent;
+    border: 2px solid red;
+}
+.about{
+    height: 70vh;
+    width: 100%;
+    background-color: aliceblue;
+    position: absolute;
+    margin-top: 93vh; 
+}
+.about .head{
+    padding: 50px 50px 50px 50px;
+    text-align: center;
+    line-height: 5px;
+
+}
+.head h1{
+    font-size: 45px;
+    color: #000;
+
+}
+.head h3{
+    color: red;
+}
+.head .line{
+    height: 4px;
+    width: 300px;
+    background-color: red;
+    margin: auto;
+}
+.about .photo{
+    position: absolute;
+    margin-left:10%;
+}
+.photo img{
+    height: 400px;
+    width: 350px;
+}
+.content-text{
+    width: 50%;
+    position: absolute;
+    margin-left: 50%;
+}
+.content-text h2{
+    font-size:30px;
+    color: #000;
+
+}
+.content-text h2 span{
+    color: red;
+}
+.content-text p{
+    font-size: 22px;
+    color: #000;
+}
+.content-text button{
+    height: 45px;
+    width: 130px;
+    background-color: red;
+    border: 2px solid red;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.content-text button:hover{
+    background: transparent;
+    color: #000;
+}
+.serviecs{
+    position: absolute;
+    height: 68vh;
+    width: 100%;
+    margin-top: 163vh;
+    background-color: black;
+    
+}
+.service-head{
+    color: white;
+    text-align: center;
+}
+.service-head h1{
+    font-size: 35px;
+}
+.service-head h4{
+    color:red;
+}
+.line{
+    height: 4px;
+    width: 400px;
+    background: red;
+    margin: auto;
+}
+.serviecs .survice-content1 ,.survice-content2,.survice-content3
+            
+{
+    height: 32vh;
+    width: 30%;
+    border: 2px solid rgb(32, 30, 30);
+    text-align: center;
+    font-size: 18px;
+    position: relative;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(22, 21, 21);
+    color: white;
+    transition: 1s;
+}
+.survice-content3:hover{
+    background-color: red;
+    width: 31%;
+    height: 33vh;
+}
+.survice-content2:hover{
+    background-color: red;
+    width: 31%;
+    height: 33vh;
+}
+.survice-content1:hover{
+    background-color: red;
+    width: 31%;
+    height: 33vh;
+}
+/* i{
+    color: cyan;
+   
+} */
+/* i:hover{
+    color:black;
+} */
+.survice-content1 h1{
+    font-size: 35px;
+    color: cyan ;
+}
+.survice-content1 h1:hover{
+    color: #000;
+}
+.survice-content2 h1{
+    font-size: 35px;
+    color:cyan;
+}
+.survice-content3 h1{
+    font-size: 35px;
+    color: cyan;
+}
+
+.survice-content1{
+    margin-top: 30px;
+
+}
+.survice-content2{
+    margin-left: 34%;
+    margin-top: -36vh;
+}
+.survice-content3{
+    margin-left: 67%;
+    margin-top: -36vh;
+}
+.skill{
+    position: absolute;
+    margin-top: 231vh;
+    width: 100%;
+    height: 60vh;
+    background-color: aliceblue;
+    
+}
+.skill-head{
+    padding:30px 10px;
+    text-align: center;
+    line-height: 10px;
+}
+.skill-head h1{
+    font-size: 35px;
+}
+.skill-head h3{
+    font-size: 18px;
+    color: red;
+    letter-spacing: 1.2px;
+}
+.skill-content{
+    width: 40%;
+    margin-left: 8%;
+}
+.skill-content h2{
+    font-size: 28px;
+}
+.skill-content P{
+    font-size: 20px;
+}
+.skill-content button{
+    height: 45px;
+    width: 120px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+.skill-content button:hover{
+    background: transparent;
+    color: red;
+}
+.skill-graph{
+    width: 49%;
+    position: absolute; 
+    margin-left: 55%;
+    margin-top: -29vh;
+    
+}
+.html ,.css ,.java-script,.bootstrap{
+    width: 100%;
+   
+}
+ .html h3{
+    margin-left: 70%;
+    color: #000;
+    margin-top: -50px;
+    font-size: 25px;
+   
+
+
+    
+} 
+.html h3{
+    margin-left: 70%;
+    color: #000;
+    margin-top: -50px;
+    font-size: 25px;
+   
+
+
+    
+} 
+.css h3{
+    margin-left: 70%;
+    color: #000;
+    margin-top: -50px;
+    font-size: 25px;
+   
+
+
+    
+} 
+.bootstrap h3{
+    margin-left: 70%;
+    color: #000;
+    margin-top: -50px;
+    font-size: 25px;
+   
+
+
+    
+} 
+.java-script h3{
+    margin-left: 70%;
+    color: #000;
+    margin-top: -50px;
+    font-size: 25px;
+   
+
+
+    
+} 
+.graph{
+    height:5px;
+    width: 80%;
+    background-color: rgb(87, 85, 85);
+}
+.graph .g1{
+    height: 5px;
+    width: 50%;
+    background-color: red;
+}
+.graph .g2{
+    height: 5px;
+    width: 30%;
+    background-color: red;
+}
+.graph .g3{
+    height: 5px;
+    width: 10%;
+    background-color: red;
+}
+.graph .g4{
+    height: 5px;
+    width: 20%;
+    background-color: red;
+}
+.contact{
+    position: absolute;
+    width: 100%;
+    margin-top: 290vh;
+    height: 70vh;
+    background-color: azure;
+}
+.contact-head{
+    text-align: center;
+    padding: 10px;
+}
+.contact-head h3{
+    font-size: 20px;
+    color: red;
+}
+.contact-tous{
+    width: 45%;
+    margin-left: 8%;
+}
+.contact-tous h3{
+    font-size: 25px;
+}
+.contact-tous p{
+    font-size: 18px;
+}
+.contact-tous .tous1{
+    margin-left: 40px;
+    /* margin-top: -1px; */
+    line-height: 5px;
+}
+.contact-tous .tous2{
+    margin-left: 40px;
+    /* margin-top: -1px; */
+    position: absolute;
+    line-height: 5px;
+    margin-top: 0px;
+}
+.contact-tous .tous3{
+    margin-left: 40px;
+    /* margin-top: -1px; */
+    line-height: 5px;
+    position: absolute;
+    margin-top: 70px;
+}
+.contact-tous .tous4{
+    margin-left: 40px;
+    line-height: 5px;
+    position: absolute;
+    margin-top: 130px;
+}
+.contact-tous .tous5{
+    margin-left: 40px;
+    line-height: 5px;
+    position: absolute;
+    margin-top: 190px;
+}
+
+
+
+
+i{
+
+    color: red;
+}
+
+
+.icon-me{
+    position: absolute;
+    /* margin-top: 20px; */
+}
+
+.icon-add{
+    position: absolute;
+ 
+    margin-top: 25px; 
+}
+.icon-mail{
+    position: absolute;
+    margin-top: 90px; 
+}
+.fb{
+    position: absolute;
+    margin-top: 150px;
+}
+.youtube{
+    position: absolute;
+    margin-top: 210px;
+}
+.contact-input{
+    position: absolute;
+    width: 47%;
+    margin-left: 53%;
+    margin-top: -22vh;
+}
+input[type="text"]{
+    height: 45px;
+    width: 45%;
+    justify-content: center;
+    font-size: 18px;
+    letter-spacing: 1.2px;
+    border-radius: 5px;
+    margin: 5px;
+
+}
+input[type="email"]{
+    height: 45px;
+    width: 45%;
+    justify-content: center;
+    font-size: 18px;
+    letter-spacing: 1.2px;
+    border-radius: 5px;
+    /* margin-left: 5px; */
+    margin: 5px;
+
+    
+}
+#subject{
+    width: 94%;
+   
+}
+#m{
+    height: 90px;
+    width: 94%;
+}
+.contact-input button{
+    height: 45px;
+    width: 150px;
+    background-color: red;
+    color: white;
+    border: 2px solid red;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 15px;
+}
+.contact-input button:hover{
+    background: transparent;
+    color: red;
+}
+footer{
+    position: absolute;
+    margin-top: 360vh;
+    width: 99%;
+    height: 80px;
+    background-color: black;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+footer h1{
+    text-align: center;
+    color: white;
+    justify-content: center;
+    font-size: 32px;}
+    
+
+            
